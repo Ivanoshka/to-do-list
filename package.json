@@ -1,0 +1,20 @@
+{
+  "name": "api_rest_mongo_express",
+  "version": "1.0.0",
+  "description": "api_rest_mongo_express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "glob": "^7.1.2",
+    "express": "^4.16.3",
+    "mongodb": "^3.1.0",
+    "mongoose": "5.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
