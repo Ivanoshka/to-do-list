@@ -1,3 +1,5 @@
+//es un archivo front que sirve para manipular la informacion con las etiquetas que tenemos en el html que vendria a ser la vista
+
 $('document').ready(function () {
   var tasks = [];
   var $list = $('#tasks-list');

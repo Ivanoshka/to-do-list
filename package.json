@@ -9,10 +9,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "glob": "^7.1.2",
     "express": "^4.16.3",
-    "mongodb": "^3.1.0",
-    "mongoose": "5.1.7"
+    "glob": "^7.2.3",
+    "lodash": "^4.17.21",
+    "mongodb": "^3.7.4",
+    "mongoose": "^5.1.7"
   },
   "devDependencies": {
     "nodemon": "^1.18.4"

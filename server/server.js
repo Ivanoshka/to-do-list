@@ -41,12 +41,14 @@ app.all('*', (req, res, next) => {
   next();
 });
 
+//este paquete lee las rutas y nos devuelve las require que le solicitemos. esto para cuando la API crece y ocupamos muchos endpoints.
 glob('./server/modules/**/*.routes.js', {}, (err, files) => {
   _.each(files, (file) => {
     require(path.resolve(file))(app);
   });
 });
 
+//servidor
 app.listen(3000, () => {
   console.log('El server esta funcionando en el puerto 3000');
 });

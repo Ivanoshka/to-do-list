@@ -1,3 +1,5 @@
+//es lo que se va crear la tabla task en la base de datos
+
 const mongoose = require('mongoose');
 const schema = new mongoose.Schema({
   title: {
@@ -14,6 +16,10 @@ const schema = new mongoose.Schema({
   completed: {
     type: Boolean,
     default: false
+  },
+  enable: {
+    type: Boolean,
+    default: true
   }
 }, {
     timestamps: true
